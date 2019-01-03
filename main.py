@@ -54,7 +54,7 @@ def plot_graph():   # this function plots the bar chart
     plt.xlabel("Purpose")
     plt.ylabel("Average Rate")
     plt.title("Average Rate of Different Financial Purposes")
-    plt.bar(ypos, avg_rate)
+    plt.bar(ypos, avg_rate, color=['b', 'g', 'r', 'c', 'm', 'y', 'b', 'g', 'r', 'c', 'm', 'y'])
     plt.show()
 
 
