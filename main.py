@@ -50,7 +50,7 @@ def plot_graph():   # this function plots the bar chart
                 biz_avg, vacation_avg, wedding_avg]
     ypos = np.arange(len(purpose))
 
-    plt.xticks(ypos, purpose)
+    plt.xticks(ypos, purpose, rotation = 45)
     plt.xlabel("Purpose")
     plt.ylabel("Average Rate")
     plt.title("Average Rate of Different Financial Purposes")
